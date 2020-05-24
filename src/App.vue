@@ -1,20 +1,22 @@
 <template>
   <div id="app">
-    <nav>
-      <li><a href='#app'>Cristina Manzoni</a></li>
-    </nav>
-    <img alt="wave" src="./assets/wave.svg">
+    <Nav/>
     <Hello/>
+    <About/>
   </div>
 </template>
 
 <script>
+import Nav from './components/Nav.vue'
 import Hello from './components/Hello.vue'
+import About from './components/About.vue'
 
 export default {
   name: 'App',
   components: {
-    Hello
+    Nav,
+    Hello,
+    About
   }
 }
 </script>
@@ -26,7 +28,6 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 
 img {

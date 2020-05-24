@@ -1,7 +1,7 @@
 <template>
   <div id="nav">  
-    <nav class="navbar">
-      <div class="container">
+    <nav>
+      <div class="navbar">
         <a class="brand" href="#hello">Cristina Manzoni</a>
         <div class="navbar-items">
           <ul>
@@ -28,10 +28,10 @@ export default {
 </script>
 
 <style scoped>
-.navbar {
+#nav {
   border-bottom: 1px solid #dee2e6;
 }
-.container {
+.navbar{
   display: flex;
   padding: 15px 25px 15px 25px;
   justify-content: space-between;

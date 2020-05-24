@@ -3,8 +3,9 @@
     <Nav/>
     <Hello/>
     <About/>
+    <Skills/>
     <footer id="footer">
-      <p>Cristina Manzoni</p>
+      <p><a href="#hello">Cristina Manzoni</a></p>
       <p>&copy; Copyright {{date()}}</p>
     </footer>
   </div>
@@ -14,13 +15,15 @@
 import Nav from './components/Nav.vue'
 import Hello from './components/Hello.vue'
 import About from './components/About.vue'
+import Skills from './components/Skills.vue'
 
 export default {
   name: 'App',
   components: {
     Nav,
     Hello,
-    About
+    About,
+    Skills
   },
   methods: {
     date() {
@@ -55,5 +58,9 @@ img {
   border-top: 1px solid #dee2e6;
   width: 100%;
   text-align: center;
+}
+
+a {
+  text-decoration: none;
 }
 </style>

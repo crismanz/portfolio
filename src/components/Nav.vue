@@ -9,6 +9,9 @@
               <a class="nav-link" href="#about">About</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#work">Work</a>
             </li>
             <li class="nav-item">
@@ -42,7 +45,6 @@ export default {
   display: inline-block;
   line-height: inherit;
   white-space: nowrap;
-  text-decoration: none;
   padding-right: 20px;
 }
 ul {

@@ -1,6 +1,6 @@
 <template>
   <div id="skills" class="container">
-    <h2>What I Use To Create</h2>
+    <h2>What I Use To Create.</h2>
     <div class="list">
       <div v-for="skill in skills" :key="skill" class="list-item">
         <img :src="skill.logo">

@@ -8,6 +8,11 @@
       <p>If I'm not in front of the screen you can find me outside hiking on mountain peaks or in the ocean catching some waves.</p>
       <br><p>Want to talk about coding or anything else?!</p>
       <p>Let's get in touch!</p>
+      <div class="logos">
+        <a href="https://www.linkedin.com/in/cristina-manzoni-34254411a/" target="_blank"><img src="../assets/linkedin_logo.png"></a>
+        <a href="https://github.com/crismanz" target="_blank"><img src="../assets/github_logo.png"></a>
+        <a href="mailto:someone@example.com"><img src="../assets/mail_logo.png"></a>
+      </div>
     </div>
   </div>
 </template>
@@ -21,5 +26,18 @@ export default {
 <style scoped>
 .about {
   text-align: left;
+}
+
+h3 {
+  color: royalblue;
+}
+
+.logos a {
+  margin: 10px;
+  height: 40px;
+}
+
+img {
+  height: 40px;
 }
 </style>

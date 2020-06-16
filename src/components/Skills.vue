@@ -46,6 +46,10 @@ export default {
 </script>
 
 <style scoped>
+h2 {
+  color:royalblue;
+}
+
 .list { 
   display: flex;
   flex-direction: row;
@@ -55,6 +59,10 @@ export default {
 }
 .list-item {
   width: 60px;
-  padding: 20px;
+  padding: 20px 40px 20px 40px;
+}
+
+img {
+  height: 60px;
 }
 </style>

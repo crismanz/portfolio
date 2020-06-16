@@ -36,15 +36,50 @@ export default {
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+#app, button {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: larger;
+  color: #2c3e50;
+}
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+  font-family: "Roboto", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
 
-img {
-  height: 60px;
+::placeholder { /* Most modern browsers support this now. */
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
 }
 
 .container {
@@ -52,7 +87,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 #footer {
@@ -63,7 +98,16 @@ img {
   text-align: center;
 }
 
+#footer a {
+  font-weight: 600;
+}
+
 a {
   text-decoration: none;
+  color:royalblue;
+}
+
+p {
+  line-height: 2;
 }
 </style>

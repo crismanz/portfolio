@@ -12,9 +12,6 @@
               <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#work">Work</a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="#contact">Contact Us</a>
             </li>
           </ul>
@@ -46,6 +43,7 @@ export default {
   line-height: inherit;
   white-space: nowrap;
   padding-right: 20px;
+  color:royalblue;
 }
 ul {
   display: flex;

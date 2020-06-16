@@ -46,10 +46,6 @@ export default {
 </script>
 
 <style scoped>
-h2 {
-  color:royalblue;
-}
-
 .list { 
   display: flex;
   flex-direction: row;

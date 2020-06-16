@@ -29,10 +29,6 @@ export default {
 </script>
 
 <style scoped>
-h2 {
-  color: royalblue;
-}
-
 .contact {
   display: flex;
   flex-direction: row;

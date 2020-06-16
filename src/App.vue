@@ -110,4 +110,9 @@ a {
 p {
   line-height: 2;
 }
+
+h2 {
+  color:royalblue;
+  border-bottom: 2px solid royalblue;
+}
 </style>

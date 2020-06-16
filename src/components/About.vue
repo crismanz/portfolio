@@ -1,7 +1,7 @@
 <template>
   <div id="about" class="container">
     <div class="about">
-      <h3>Hi there, I'm Cristina.</h3>
+      <h2>Hi there, I'm Cristina.</h2>
       <p>I'm a Full-stack developer and I love to create new stuff.
         I have about 2 years of work experience and I plan on growing in the years to come.</p>
       <p>I'm hard working and love working on projects, as individual or in a team, big or small, especially when they push me to my limits.</p>
@@ -26,10 +26,6 @@ export default {
 <style scoped>
 .about {
   text-align: left;
-}
-
-h3 {
-  color: royalblue;
 }
 
 .logos a {
